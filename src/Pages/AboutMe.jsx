@@ -1,4 +1,5 @@
 import "./pages.css"
+import imgprofile from "../../public/img/profile.jpg"
 
 import { CagasTxt } from "../Components/CagasTxt";
 const TextoCagas = [
@@ -31,7 +32,7 @@ export function AboutMe(){
 
             <div className="h-1/2 w-1/2 bg-violet-500 p-2 rounded-full lg:h-1/4 lg:w-1/4 shadow-custom-purple">
 
-            <img src="../../public/img/profile.jpg" className="w-full h-full rounded-full"></img>
+            <img src={imgprofile} className="w-full h-full rounded-full"></img>
 
             </div>
 

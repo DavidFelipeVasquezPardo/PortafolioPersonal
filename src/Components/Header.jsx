@@ -1,4 +1,5 @@
 import "./componentes.css"
+import icono from "../../public/img/icon.test.png"
 
 export function Header(){
 
@@ -8,7 +9,7 @@ export function Header(){
 
             <div className="h-16 mt-5 mb-5 rounded-full lg:ml-5">
 
-                <img src="../../public/img/icon.test.png" className="h-full"></img>
+                <img src={icono} className="h-full"></img>
 
             </div>
 
